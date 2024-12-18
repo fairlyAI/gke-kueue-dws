@@ -4,7 +4,7 @@ metadata:
   name: default-flavor # This ResourceFlavor will be used for all the resources
 spec:
   nodeLabels:
-    cloud.google.com/gke-nodepool: kueue-dev-queue-default-nodepool
+    cloud.google.com/gke-nodepool: pool-2
   nodeTaints:                # node taints that this resource flavor represents
   - effect: NoSchedule
     key: kueue

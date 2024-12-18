@@ -4,7 +4,7 @@ metadata:
   name: a100-80gb # This ResourceFlavor for A100 80GB nodes
 spec:
   nodeLabels:
-    cloud.google.com/gke-nodepool: kueue-dev-a100-80gb-nodepool
+    cloud.google.com/gke-nodepool: pool-2
   nodeTaints:                # node taints that this resource flavor represents
   - effect: NoSchedule
     key: kueue
