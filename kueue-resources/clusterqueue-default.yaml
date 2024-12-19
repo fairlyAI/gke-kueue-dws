@@ -19,9 +19,9 @@ spec:
     - name: a100-80gb
       resources:
       - name: "cpu"
-        nominalQuota: 100           # how many total CPUs to allow for default flavor
+        nominalQuota: 208           # how many total CPUs to allow for default flavor
       - name: "memory"
-        nominalQuota: 800Gi         # how much total Mem to allow for default flavor
+        nominalQuota: 1872Gi         # how much total Mem to allow for default flavor
       - name: "nvidia.com/gpu"
         nominalQuota: 32            # how many total GPUs to allow for a100 gpu
   admissionChecksStrategy:
